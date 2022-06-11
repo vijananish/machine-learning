@@ -27,10 +27,13 @@ Also P(X=x1) = P(x1)
 
 A discrete random variable can take only a finite number of distinct values such as 0, 1, 2, 3, 4, … and so on. The probability distribution of a random variable has a list of probabilities compared with each of its possible values known as probability mass function.
 
+Here we used ```Probablitity Mass Function (PMF)```
+
 ### Continuous Random Variable
 
 A numerically valued variable is said to be continuous if, in any unit of measurement, whenever it can take on the values a and b. If the random variable X can assume an infinite and uncountable set of values, it is said to be a continuous random variable. When X takes any value in a given interval (a, b), it is said to be a continuous random variable in that interval.
 
+Here we use ```Probablitity Density Function (PDF)```
 
 ## POPULATION
 
@@ -63,4 +66,37 @@ Basically, there are two types of sampling. They are:
 1. Quota sampling
 2. Judgement sampling
 3. Purposive sampling
+
+
+## DISTRIBUTION USAGE
+
+Probability ---> Data Analysis ---> Answering Question about Data
+
+
+## CHEBYSHEV'S INEQUALITY
+
+From the Gaussian Distribution one knows about 68-95-99 percent rule.
+On the basis of Gaussian Distribution: ```P(nu-2sigma<x<nu+2sigma) = 95%```
+
+What if we don't know the distribution but know the mean and standard deviation. Let x% data lies between nu-sigma and nu+sigma.
+Here comes Chebyshev's Inequality comes into play.
+
+According to Chebyshev's let X be random variable and mean be finite and standard deviation be finite and non-zero. We don't know the distribution then
+
+![alt text](https://www.myassignmenthelp.net/statistics-assignment-help/chebyshev-theorem.png)
+
+![alt text](https://allthingsstatistics.com/wp-content/uploads/2021/06/Chebyshevs-Inequality.png)
+
+
+## UNIFORM DISTRIBUTION
+
+In statistics, uniform distribution refers to a type of probability distribution in which all outcomes are equally likely. A deck of cards has within it uniform distributions because the likelihood of drawing a heart, a club, a diamond, or a spade is equally likely. A coin also has a uniform distribution because the probability of getting either heads or tails in a coin toss is the same.
+
+1. Discrete Uniform Distribution
+2. Continuous Uniform Distribution
+
+![alt text](https://miro.medium.com/max/875/0*uswnTdoDOLJrZysc.png)
+
+
+## BERNOULLI DISTRIBUTION
 
