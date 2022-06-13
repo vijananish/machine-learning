@@ -100,3 +100,17 @@ In statistics, uniform distribution refers to a type of probability distribution
 
 ## BERNOULLI DISTRIBUTION
 
+The Bernoulli distribution is a discrete distribution having two possible outcomes labelled by n=0 and n=1 in which n=1 ("success") occurs with probability p and n=0 ("failure") occurs with probability q=1-p, where 0<p<1. It therefore has probability density function.
+
+![alt text](https://www.probabilisticworld.com/wp-content/uploads/2019/09/bernoulli-distribution-pmf.png)
+
+![alt text](https://www.statisticshowto.com/wp-content/uploads/2016/07/bernoulli-distribution.png)
+
+![alt text](https://miro.medium.com/max/875/1*KvnadxZI-Q-V9D9A4iEhfg.png)
+## BINOMIAL DISTRIBUTION 
+
+A binomial distribution can be thought of as simply the probability of a SUCCESS or FAILURE outcome in an experiment or survey that is repeated multiple times. The binomial is a type of distribution that has two possible outcomes (the prefix “bi” means two, or twice). For example, a coin toss has only two possible outcomes: heads or tails and taking a test could have two possible outcomes: pass or fail.
+
+Notation ```X ~ B(n, p)``` where n is number of trials and p is the probability of the event i.e. success.
+
+PMF =  ![alt text](https://andymath.com/wp-content/uploads/2019/03/BinomialProbabilityFunction-e1573148294456.jpg)
