@@ -114,3 +114,13 @@ A binomial distribution can be thought of as simply the probability of a SUCCESS
 Notation ```X ~ B(n, p)``` where n is number of trials and p is the probability of the event i.e. success.
 
 PMF =  ![alt text](https://andymath.com/wp-content/uploads/2019/03/BinomialProbabilityFunction-e1573148294456.jpg)
+
+
+## LOG NORMAL DISTRIBUTION
+
+In probability theory, a log-normal (or log-normal) distribution is a continuous probability distribution of a random variable whose logarithm is normally distributed. Thus, if the random variable X is log-normally distributed, then Y = ln(X) has a normal distribution. The log-normal distribution is a right skewed continuous probability distribution, meaning it has a long tail towards the right. It is used for modelling various natural phenomena such as income distributions, the length of chess games or the time to repair a maintainable system and more.
+![alt text](https://cdn.wallstreetmojo.com/wp-content/uploads/2019/11/lognormal-distribution.jpg)
+
+
+## POWER LAW DISTRIBUTION
+
