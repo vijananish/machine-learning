@@ -124,3 +124,31 @@ In probability theory, a log-normal (or log-normal) distribution is a continuous
 
 ## POWER LAW DISTRIBUTION
 
+The power law (also called the scaling law) states that a relative change in one quantity results in a proportional relative change in another. 
+It has a long tail
+According to Power Law Distribution: It follows ```80-20``` rule means 80% of data in 20% of interval.
+
+![alt text](https://miro.medium.com/max/1168/1*S2SMWfSDGJST3hdgF4yWXw.png)
+
+![alt text](https://www.comscore.com/var/comscore/storage/images/media/images/power_law_distribution/1980661-1-eng-US/Power_Law_Distribution.png)
+
+### Pareto Distribution
+
+There are 2 parameters 
+
+```x(m) is scale i.e. similar to nu in Gaussian Distribution```
+
+```alpha is shape i.e. standard deviation in Gaussian Distribution```
+
+![alt text](https://upload.wikimedia.org/wikipedia/commons/1/11/Probability_density_function_of_Pareto_distribution.svg)
+
+Here as alpha decreases width of tail increases. 
+
+When alpha = infinity then all are 0 but only at x=1 it gives value. This type of distribution is called ```Dirac Delta Function```
+
+We can think of example: traffic of file size, oil reserves fields.
+
+Another way to identify the plot is power law is ```Log-Log``` plot.
+
+![alt text](https://upload.wikimedia.org/wikipedia/commons/1/18/Log-log_plot_example.svg)
+
