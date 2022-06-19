@@ -9,7 +9,7 @@ Probability And Statistics are the two important concepts in Maths. Probability 
 A random variable is a numerical description of the outcome of a statistical experiment. A random variable that may assume only a finite number or an infinite sequence of values is said to be discrete; one that may assume any value in some interval on the real number line is said to be continuous.
 This is generally represented by 'X'.
 
-Here we can think of and example: Rolling a Dice, and Tossing a coin.
+Here we can think of and example: Rolling a Die, and Tossing a coin.
 
 Rolling Dice:
 
@@ -151,4 +151,21 @@ We can think of example: traffic of file size, oil reserves fields.
 Another way to identify the plot is power law is ```Log-Log``` plot.
 
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/1/18/Log-log_plot_example.svg)
+
+
+## BOX COX TRANSFORM (POWER TRANSFORM)
+
+ Fortunately, we have a way to transform power-law or any non-linear distribution to Normal using a Box-Cox Transformation.
+ 
+![alt text](https://media.geeksforgeeks.org/wp-content/uploads/20200531214708/powerlaw..png)
+
+As per Pareto Distribution let X = [x1, x2, ...., xn]
+
+As per Gaussian Distribution let Y = [y1, y2, ...., yn]
+
+With the help of Box Cox Transform Pareto can be converted to Gaussian.
+
+box cox(X) = λ
+
+![alt text](https://www.statisticshowto.com/wp-content/uploads/2015/07/boxcox-formula-1.png)
 
