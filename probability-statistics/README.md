@@ -4,6 +4,7 @@
 
 Probability And Statistics are the two important concepts in Maths. Probability is all about chance. Whereas statistics is more about how we handle various data using different techniques. It helps to represent complicated data in a very easy and understandable way.
 
+
 ## RANDOM VARIABLE
 
 A random variable is a numerical description of the outcome of a statistical experiment. A random variable that may assume only a finite number or an infinite sequence of values is said to be discrete; one that may assume any value in some interval on the real number line is said to be continuous.
@@ -35,6 +36,7 @@ A numerically valued variable is said to be continuous if, in any unit of measur
 
 Here we use ```Probablitity Density Function (PDF)```
 
+
 ## POPULATION
 
 In statistics, population is the entire set of items from which you draw data for a statistical study. It can be a group of individuals, a set of items, etc. It makes up the data pool for a study.
@@ -44,6 +46,7 @@ There are different types of population. They are:
 2. Infinite Population
 3. Existent Population
 4. Hypothetical Population
+
 
 ## SAMPLE
 
@@ -169,3 +172,44 @@ box cox(X) = λ
 
 ![alt text](https://www.statisticshowto.com/wp-content/uploads/2015/07/boxcox-formula-1.png)
 
+
+## PEARSON CORRELATION COEFFICIENT (RANDOM VARIABLES)
+
+This is used to measure relationship between random variables.
+This is defined by:
+```
+P = cov(X,Y)/(std(X)*std(Y))
+```
+![alt text](https://upload.wikimedia.org/wikipedia/commons/3/34/Correlation_coefficient.png)
+
+This works well when we have linear relationships. In order to fix this with non-linear we use Spearman Rank Correlation Coefficient.
+
+
+## SPEARMAN RANK CORRELATION COEFFICIENT
+
+![alt text](https://i.stack.imgur.com/bi0GX.png)
+![alt text](https://i.stack.imgur.com/w6Qav.png)
+
+Here rank is calculated by: Sort the column vector and smallest will get the rank 1 and increasing as value increases.
+
+```
+here r = PearsonCorrCoeff(rank(X),rank(Y))
+```
+
+## CONFIDENCE INTERVAL(CI)
+
+Let X be random variable [x1, x2, x3, ...., xn]
+
+where population mean = μ
+
+where sample mean = x̄
+
+μ ≈ x̄ = 1/n(∑x(i)); 0<i<n
+
+As n increases then μ = x̄
+
+Rather than giving point value we can give range
+
+μ ∈ [interval] with 95% probability will provide much richer information.
+
+This is called confidence interval.
