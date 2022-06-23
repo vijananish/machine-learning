@@ -213,3 +213,46 @@ Rather than giving point value we can give range
 μ ∈ [interval] with 95% probability will provide much richer information.
 
 This is called confidence interval.
+
+
+### COMPUTING CONFIDENCE INTERVAL
+
+If we know the underlying distribution then we can easily identify the CI.
+
+Let X have mean ```μ``` and standard deviation be ```σ``` the 95% of data lies between μ-2σ and μ+2σ. Similarly if we want 90% of data we can see the distribution table to find the values.
+
+
+### COMPUTING CONFIDENCE INTERVAL OF RANDOM VARIABLE
+
+If we know the underlying distribution then we can easily identify the CI.
+
+Let X have mean ```μ``` and standard deviation be ```σ``` the 95% of data lies between μ-2σ and μ+2σ. Similarly if we want 90% of data we can see the distribution table to find the values.
+
+#### Case 1:
+
+where population mean = μ
+
+where sample mean = x̄
+
+As per central limit theorem (CLT)
+
+Then x̄ ≈ N(μ, σ/sqrt(n)) here n is the size of sample.
+
+#### Case 2:
+
+If we don't know population standard deviation and sample of size ```n```. Here as we don't know n and σ then follow t-distribution with n-1 degrees of freedom.
+
+Therefore, x̄ follow t-distribution with n-1 degrees of freedom.
+
+As degree of freedom increases peak increases.
+
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Student_t_pdf.svg/1024px-Student_t_pdf.svg.png)
+
+
+### CONFIDENCE INTERVAL USING BOOTSTRAPPING
+
+To calculate CI we can use programming and simulation tools i.e. using empirical-formula for complex things.
+
+In this we take multiple samples and rearrange the median and then calculate confidence interval.
+
+
