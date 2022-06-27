@@ -256,3 +256,42 @@ To calculate CI we can use programming and simulation tools i.e. using empirical
 In this we take multiple samples and rearrange the median and then calculate confidence interval.
 
 
+## HYPOTHESIS TESTING
+
+Hypothesis testing is an act in statistics whereby an analyst tests an assumption regarding a population parameter. The methodology employed by the analyst depends on the nature of the data used and the reason for the analysis.
+
+Hypothesis testing is used to assess the plausibility of a hypothesis by using sample data. Such data may come from a larger population, or from a data-generating process.
+
+e.g. Let μ1 be mean of class 1 and μ2 be mean of class 2. 
+
+Let μ1 = 148 and μ2 = 182 so μ2>μ1
+1. Choosing a test statistic.
+    We can think of μ2-μ1
+2. Null Hypothesis (H0): Follows proof by contradiction.
+In this we make assumption. It treats everything in 0 and 1 format.
+H0: no-difference in means
+H1(alternative hypothesis - opposite of H0): There is difference in means.
+3. p-value: what is the probability of observing value of x if my null hypothesis is true.
+Let's assume null hypothesis is true i.e. there is no difference. 
+
+In another words it is the probability of null-hypothesis to be true.
+
+p-value defines μ2-μ1=10 cm i.e difference between the heights.
+
+if p=0.9 then null-hypothesis=True
+
+if p=0.05 then null-hypothesis is False.
+
+Calculating p-value: 
+
+Tossing coin 5 times and let's suppose coin is unbiased
+
+Then P(H) = 0.5
+
+H0 = Coin is unbiased
+
+as per p-value p(X=5 | H0) = (1/2)*(1/2)*(1/2)*(1/2)*(1/2) = 1/32 = 3%
+
+```
+If P(obs | H0) < 5% then Null-Hypothesis may be incorrect.
+```
