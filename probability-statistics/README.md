@@ -274,7 +274,7 @@ H1(alternative hypothesis - opposite of H0): There is difference in means.
 3. p-value: what is the probability of observing value of x if my null hypothesis is true.
 Let's assume null hypothesis is true i.e. there is no difference. 
 
-In another words it is the probability of null-hypothesis to be true.
+In other words it is the probability of null-hypothesis to be true.
 
 p-value defines μ2-μ1=10 cm i.e difference between the heights.
 
@@ -295,3 +295,42 @@ as per p-value p(X=5 | H0) = (1/2)*(1/2)*(1/2)*(1/2)*(1/2) = 1/32 = 3%
 ```
 If P(obs | H0) < 5% then Null-Hypothesis may be incorrect.
 ```
+
+
+## CALCULATING P-VALUE USING PERMUTATIONS
+
+Let d1 be sample of 50 students with mean μ1
+
+Let d2 be sample of 50 students with mean μ2
+
+```μ1-μ2 = Δ```
+
+Lets combine d1 and d2 and now
+
+1. Draw 50 random sample X with mean μ1 and other 50 as Y with mean μ2:  μ1-μ2 = δ1
+2. Draw 50 random sample X with mean μ1 and other 50 as Y with mean μ2:  μ1-μ2 = δ2
+ similarly so on
+3. Draw 50 random sample X with mean μ1 and other 50 as Y with mean μ2:  μ1-μ2 = δn
+
+Now sort ```δ```  and see where ```Δ``` fits. Now calculate the number of values greater than where Δ is fit. This will identify the p-value.
+
+
+## K-S TEST (KOLMOGOROV-SMIRNOV TEST)
+Let assume X1 be random variable having n data points and X2 be random variable having m data points.
+
+Now draw the CDF of the two.
+
+Let's say for Null-Hypothesis come from the same distribution.
+
+![alt text](https://upload.wikimedia.org/wikipedia/commons/c/cf/KS_Example.png)
+
+The Kolmogorov–Smirnov statistic for a given cumulative distribution function F(x) is
+
+![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/2a8f25b438394d87d3e53a003cc3cc751d418b9c)
+where supx is the supremum of the set of distances. Intuitively, the statistic takes the largest absolute difference between the two distribution functions across all x values.
+
+For large samples, the null hypothesis is rejected at level α if
+![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/a547cb8262dd2ac5f47103f3bbe734495eb8a68b)
+
+where:
+![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/ba85962caef4533f1fe4de8f683fb764cb966f68)
