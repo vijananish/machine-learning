@@ -12,7 +12,7 @@ A random variable is a numerical description of the outcome of a statistical exp
 This is generally represented by 'X'.
 
 Here we can think of and example: Rolling a Die, and Tossing a coin.
-
+![alt text](https://www.mathsisfun.com/data/images/random-variable-1.svg)
 Rolling Dice:
 
 X = {1, 2, 3, 4, 5, 6}
