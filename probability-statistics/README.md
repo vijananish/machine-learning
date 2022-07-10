@@ -42,6 +42,8 @@ Here we use ```Probablitity Density Function (PDF)```
 
 In statistics, population is the entire set of items from which you draw data for a statistical study. It can be a group of individuals, a set of items, etc. It makes up the data pool for a study.
 
+![alt text](https://qph.cf2.quoracdn.net/main-qimg-3ea3b23ca85175e61356eef129651c80.webp)
+
 There are different types of population. They are:
 1. Finite Population
 2. Infinite Population
@@ -101,6 +103,7 @@ In statistics, uniform distribution refers to a type of probability distribution
 
 ![alt text](https://miro.medium.com/max/875/0*uswnTdoDOLJrZysc.png)
 
+![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiEGSe4BWLlaCN_gX0iprARQkIPvfZlOOKiQ&usqp=CAU)
 
 ## BERNOULLI DISTRIBUTION
 
