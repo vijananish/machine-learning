@@ -1,6 +1,7 @@
 # PROBABILITY AND STATISTICS
 
 ## INTRODUCTION
+![alt text](https://ecdn.teacherspayteachers.com/thumbitem/Common-Core-Mathematics-HS-Probability-Statistics-Poster-White-Background-1500873463/original-449072-1.jpg)
 
 Probability And Statistics are the two important concepts in Maths. Probability is all about chance. Whereas statistics is more about how we handle various data using different techniques. It helps to represent complicated data in a very easy and understandable way.
 
