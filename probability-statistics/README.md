@@ -42,7 +42,7 @@ Here we use ```Probablitity Density Function (PDF)```
 
 In statistics, population is the entire set of items from which you draw data for a statistical study. It can be a group of individuals, a set of items, etc. It makes up the data pool for a study.
 
-![alt text](https://qph.cf2.quoracdn.net/main-qimg-3ea3b23ca85175e61356eef129651c80.webp)
+![alt text](https://www.programsbuzz.com/sites/default/files/inline-images/populationvssample-e1556351520474.png)
 
 There are different types of population. They are:
 1. Finite Population
